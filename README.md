@@ -9,7 +9,7 @@ Millions of people purchase online educational content like courses and training
 
 Content creators don't know how their students are doing, where they're stuck or how effective their content really is.
 
-ResultJam is a new approach to online education that allows students to see each others progress towards a clearly defined desired outcome. It shows course creators exactly how students are doing and where they're getting stuck.
+ResultJam is a new approach to online education that allows students to see each others' progress towards a clearly defined, desired outcome. It shows course creators exactly how students are doing and where they're getting stuck.
 
 We are creating an outcome generation platform that uses a clear, repeatable methodology to improve student engagement and success, raising the bar for the entire online education industry.
 
