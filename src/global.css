@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +7,31 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-body, #svelte {
+body,
+#svelte {
   outline: none;
+}
+
+@layer utilities {
+  .polygon-clip-path-4 {
+    clip-path: polygon(
+      calc(100% - 1rem) 0,
+      100% 50%,
+      calc(100% - 1rem) 100%,
+      0 100%,
+      1rem 50%,
+      0 0
+    );
+  }
+
+  .polygon-clip-path-1 {
+    clip-path: polygon(
+      calc(100% - 0.25rem) 0,
+      100% 50%,
+      calc(100% - 0.25rem) 100%,
+      0 100%,
+      0.25rem 50%,
+      0 0
+    );
+  }
 }
