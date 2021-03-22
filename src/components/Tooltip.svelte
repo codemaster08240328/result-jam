@@ -20,9 +20,11 @@
     </div>
   {/if}
   <div class="relative flex">
-    <svg class={`svg-triangle`} width="8" height="8">
-      <rect x="12" y="-10" width="16" height="16" transform="rotate(45)" />
-    </svg>
+    {#if show}
+      <svg class={`svg-triangle`} width="8" height="8">
+        <rect x="12" y="-10" width="16" height="16" transform="rotate(45)" />
+      </svg>
+    {/if}
     <slot name="tooltip-target" />
   </div>
 </div>
