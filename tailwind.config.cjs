@@ -28,6 +28,7 @@ module.exports = {
       ],
     },
   },
+  important: true,
   theme: {
     fontFamily: {
       display: ['Poppins', 'sans-serif'],
@@ -51,6 +52,7 @@ module.exports = {
         'screen-75': '75vh',
       },
       width: {
+        0.25: '1px',
         36: '9rem',
         102: '25.5rem',
         120: '30rem',
@@ -69,6 +71,9 @@ module.exports = {
         120: '30rem',
         230: '57.5rem',
         'screen-75': '75vh',
+      },
+      minHeight: {
+        132: "8rem",
       },
       boxShadow: {
         line: '0 2px 0px 0 rgba(0, 0, 0, 0.06)',
@@ -212,6 +217,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'profile-banner': "url('/images/profile-banner.png')",
+        'profile-banner-mob': "url('/images/profile-banner-mobile.png')",
         'stripe-piece': "url('/images/stripes.png')",
         'bluegray-gradient': "linear-gradient(0deg, rgba(245,247,250,0) 0%, rgba(245,247,250,1) 42%, rgba(245,247,250,1) 100%);"
       }),

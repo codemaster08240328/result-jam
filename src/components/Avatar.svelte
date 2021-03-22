@@ -1,5 +1,8 @@
 <script script lang="ts">
+  import { ordNum } from "../lib/helper";
+
   import type { TUser } from "$types/user.type";
+  import Image from "./Image.svelte";
   export let size: number = 3;
   export let photo: string = "/images/default-avatar.png";
   export let hasOnline: boolean | undefined = undefined;
@@ -7,13 +10,33 @@
   export let user: TUser;
   let className = "";
   export { className as class };
-  $: error = false;
   $: url = !!user ? (!!user.photo ? user.photo : photo) : photo;
-
-  function handlError(e) {
-    error = true;
-  }
 </script>
+
+<div
+  class="relative inline-block"
+  style={`width: ${size}rem; height: ${size}rem;`}
+>
+  {#if hasPlace}
+    <div class="place-wrapper">{ordNum(user.place)}</div>
+  {/if}
+  {#if hasOnline}
+    <div class="online-sign bg-green-450" />
+  {/if}
+  <div
+    class={`shell rounded-full overflow-hidden transition-all duration-200 avatar flex-none ${className}`}
+    style={`width: ${size}rem; height: ${size}rem;`}
+  >
+    <Image
+      url={`${url}${
+        url.includes("resultjam")
+          ? `?w=${size * 16}&h=${size * 16}&crop=faces,center&fit=crop`
+          : ""
+      }`}
+      base={photo}
+    />
+  </div>
+</div>
 
 <style>
   .place-wrapper {
@@ -43,23 +66,3 @@
       right-6;
   }
 </style>
-
-<div
-  class="relative inline-block"
-  style={`width: ${size}rem; height: ${size}rem;`}>
-  {#if hasPlace}
-    <div class="place-wrapper">{`${user.place}th`}</div>
-  {/if}
-  {#if hasOnline}
-    <div class="online-sign bg-green-450" />
-  {/if}
-  <div
-    class={`shell rounded-full overflow-hidden transition-all duration-200 avatar flex-none ${className}`}
-    style={`width: ${size}rem; height: ${size}rem;`}>
-    <img
-      class="w-full h-full"
-      on:error={handlError}
-      src={`${!error ? `${url}${url.includes('resultjam') ? `?w=${size * 16}&h=${size * 16}&crop=faces,center&fit=crop` : ''}` : photo}`}
-      alt="" />
-  </div>
-</div>

@@ -10539,10 +10539,14 @@ export const CUR_USER = {
 
 export const CARD_DATA_DEMO: Array<{
   title: string;
+  img1: string;
+  img2: string;
   contents: Array<TCardItem>;
 }> = [
   {
     title: 'Behaviors',
+    img1: '/images/behavior-1.png',
+    img2: '/images/behavior-2.png',
     contents: [
       {
         streak: '4',
@@ -10561,20 +10565,23 @@ export const CARD_DATA_DEMO: Array<{
     ]
   }, {
     title: 'Metrics',
+    img1: "/images/metric-1.png",
+    img2: "/images/metric-2.png",
     contents: [
       {
         streak: '14',
         label: "Leads Generated",
-        status: "+1 Today",
+        status: "+2 This week",
       },
       {
         streak: '5',
         label: "Sales Made",
-        status: "+3 Today",
+        status: "+3 This week",
       },
       {
         streak: '$2000',
         label: "Revenue",
+        status: "+$500 This week"
       },
     ]
   }

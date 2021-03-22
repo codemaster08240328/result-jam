@@ -9,3 +9,4 @@ export type TCardItem = {
   label: string;
   status?: string;
 }
+

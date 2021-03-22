@@ -12,6 +12,11 @@
   }
 </script>
 
+<button class={getClassName()} {disabled}>
+  <slot name="icon" />
+  <slot name="label" />
+</button>
+
 <style>
   .default-button-style {
     @apply inline-flex
@@ -23,7 +28,6 @@
       text-bluegray-800
       bg-white
       rounded-lg
-      w-36
       h-12
       font-semibold
       outline-none
@@ -36,8 +40,3 @@
       cursor-not-allowed;
   }
 </style>
-
-<button class={getClassName()} {disabled}>
-  <slot name="icon" />
-  <slot name="label" />
-</button>
