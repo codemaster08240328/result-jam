@@ -1,3 +1,5 @@
+import type { TCardItem } from '$types/global.type'
+
 export const board = {
   title: 'Winning At Email Reachout 5-Day Challenge',
   result: '1 Live Conversation Generated',
@@ -10211,3 +10213,376 @@ export const board = {
     },
   ],
 }
+
+export const CUR_USER = {
+  id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+  firstName: 'Aaron',
+  lastName: 'Fung',
+  percentComplete: 40,
+  numStepsComplete: 4,
+  photo:
+    'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+  joined: '2021-02-10T16:31:57.340Z',
+  place: 13,
+  lastCompleted: {
+    ord: 3,
+    id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+    __typename: 'Step',
+  },
+  nextStep: {
+    id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+    __typename: 'Step',
+  },
+  stepsCompleted: {
+    'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+    '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+    'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+    'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+    'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+  },
+  submissionsByStep: {
+    'f91f761c-7366-4b76-bd3f-3552122c8642': [
+      {
+        id: '79158d14-93ae-49d9-9ecd-ea2ef7808cd3',
+        content: null,
+        difficulty: 1,
+        metric: null,
+        stepId: 'f91f761c-7366-4b76-bd3f-3552122c8642',
+        userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+        status: 'complete',
+        step: {
+          ord: 0,
+          __typename: 'Step',
+        },
+        createdAt: '2021-02-10T16:31:58.453Z',
+        __typename: 'Submission',
+        user: {
+          id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+          firstName: 'Aaron',
+          lastName: 'Fung',
+          percentComplete: 40,
+          numStepsComplete: 4,
+          photo:
+            'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+          joined: '2021-02-10T16:31:57.340Z',
+          points: 42,
+          place: 13,
+          role: 'member',
+          lastCompleted: {
+            ord: 3,
+            id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+            __typename: 'Step',
+          },
+          nextStep: {
+            id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+            __typename: 'Step',
+          },
+          __typename: 'DetailedBoardUser',
+          activeStep: {
+            title: ' ',
+          },
+          stepsCompleted: {
+            'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+            '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+            'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+            'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+            'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+          },
+        },
+      },
+    ],
+    '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': [
+      {
+        id: '9bfbbea0-a232-4877-b312-2ea4eed50a42',
+        content: null,
+        difficulty: 1,
+        metric: null,
+        stepId: '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43',
+        userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+        status: 'complete',
+        step: {
+          ord: 1,
+          __typename: 'Step',
+        },
+        createdAt: '2021-02-10T19:09:50.572Z',
+        __typename: 'Submission',
+        user: {
+          id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+          firstName: 'Aaron',
+          lastName: 'Fung',
+          percentComplete: 40,
+          numStepsComplete: 4,
+          photo:
+            'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+          joined: '2021-02-10T16:31:57.340Z',
+          points: 42,
+          place: 13,
+          role: 'member',
+          lastCompleted: {
+            ord: 3,
+            id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+            __typename: 'Step',
+          },
+          nextStep: {
+            id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+            __typename: 'Step',
+          },
+          __typename: 'DetailedBoardUser',
+          activeStep: {
+            title: ' ',
+          },
+          stepsCompleted: {
+            'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+            '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+            'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+            'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+            'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+          },
+        },
+      },
+    ],
+    'd2423a3c-18ab-4477-818f-0da9e9495729': [
+      {
+        id: '1fde1ae3-6c71-4bc0-8186-128b174868ed',
+        content: null,
+        difficulty: 1,
+        metric: null,
+        stepId: 'd2423a3c-18ab-4477-818f-0da9e9495729',
+        userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+        status: 'complete',
+        step: {
+          ord: 2,
+          __typename: 'Step',
+        },
+        createdAt: '2021-02-10T19:31:02.485Z',
+        __typename: 'Submission',
+        user: {
+          id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+          firstName: 'Aaron',
+          lastName: 'Fung',
+          percentComplete: 40,
+          numStepsComplete: 4,
+          photo:
+            'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+          joined: '2021-02-10T16:31:57.340Z',
+          points: 42,
+          place: 13,
+          role: 'member',
+          lastCompleted: {
+            ord: 3,
+            id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+            __typename: 'Step',
+          },
+          nextStep: {
+            id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+            __typename: 'Step',
+          },
+          __typename: 'DetailedBoardUser',
+          activeStep: {
+            title: ' ',
+          },
+          stepsCompleted: {
+            'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+            '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+            'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+            'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+            'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+          },
+        },
+      },
+    ],
+    'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': [
+      {
+        id: '8e8d9786-4502-406e-b5fe-abaa33dcd246',
+        content: null,
+        difficulty: 2,
+        metric: null,
+        stepId: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+        userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+        status: 'complete',
+        step: {
+          ord: 3,
+          __typename: 'Step',
+        },
+        createdAt: '2021-02-10T19:44:14.908Z',
+        __typename: 'Submission',
+        user: {
+          id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+          firstName: 'Aaron',
+          lastName: 'Fung',
+          percentComplete: 40,
+          numStepsComplete: 4,
+          photo:
+            'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+          joined: '2021-02-10T16:31:57.340Z',
+          points: 42,
+          place: 13,
+          role: 'member',
+          lastCompleted: {
+            ord: 3,
+            id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+            __typename: 'Step',
+          },
+          nextStep: {
+            id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+            __typename: 'Step',
+          },
+          __typename: 'DetailedBoardUser',
+          activeStep: {
+            title: ' ',
+          },
+          stepsCompleted: {
+            'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+            '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+            'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+            'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+            'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+          },
+        },
+      },
+    ],
+    'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': [
+      {
+        id: 'c37fe951-dfba-490b-aeb1-52ca2f0a82ed',
+        content: null,
+        difficulty: null,
+        metric: null,
+        stepId: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+        userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+        status: 'active',
+        step: {
+          ord: 4,
+          __typename: 'Step',
+        },
+        createdAt: '2021-02-10T20:27:33.104Z',
+        __typename: 'Submission',
+        user: {
+          id: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+          firstName: 'Aaron',
+          lastName: 'Fung',
+          percentComplete: 40,
+          numStepsComplete: 4,
+          photo:
+            'https://graph.facebook.com/10111105657535083/picture?width=448&height=448',
+          joined: '2021-02-10T16:31:57.340Z',
+          points: 42,
+          place: 13,
+          role: 'member',
+          lastCompleted: {
+            ord: 3,
+            id: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+            __typename: 'Step',
+          },
+          nextStep: {
+            id: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+            __typename: 'Step',
+          },
+          __typename: 'DetailedBoardUser',
+          activeStep: {
+            title: ' ',
+          },
+          stepsCompleted: {
+            'f91f761c-7366-4b76-bd3f-3552122c8642': 1,
+            '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43': 1,
+            'd2423a3c-18ab-4477-818f-0da9e9495729': 1,
+            'b4ff4e82-5884-41f6-bc00-e14c6a5556b5': 1,
+            'ba3c0018-0c6e-4f6a-9b88-641853a0ac21': 1,
+          },
+        },
+      },
+    ],
+  },
+  submissions: [
+    {
+      id: '79158d14-93ae-49d9-9ecd-ea2ef7808cd3',
+      difficulty: 1,
+      stepId: 'f91f761c-7366-4b76-bd3f-3552122c8642',
+      userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+      status: 'complete',
+      createdAt: '2021-02-10T16:31:58.453Z',
+    },
+    {
+      id: '9bfbbea0-a232-4877-b312-2ea4eed50a42',
+      difficulty: 1,
+      stepId: '5e84fa9d-d18d-4b07-89bd-6ee56bf36d43',
+      userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+      status: 'complete',
+      createdAt: '2021-02-10T19:09:50.572Z',
+    },
+    {
+      id: '1fde1ae3-6c71-4bc0-8186-128b174868ed',
+      difficulty: 1,
+      stepId: 'd2423a3c-18ab-4477-818f-0da9e9495729',
+      userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+      status: 'complete',
+      createdAt: '2021-02-10T19:31:02.485Z',
+    },
+    {
+      id: '8e8d9786-4502-406e-b5fe-abaa33dcd246',
+      difficulty: 2,
+      stepId: 'b4ff4e82-5884-41f6-bc00-e14c6a5556b5',
+      userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+      status: 'complete',
+      createdAt: '2021-02-10T19:44:14.908Z',
+    },
+    {
+      id: 'c37fe951-dfba-490b-aeb1-52ca2f0a82ed',
+      difficulty: null,
+      stepId: 'ba3c0018-0c6e-4f6a-9b88-641853a0ac21',
+      userId: 'd28e96e3-899d-4d7d-9de5-656f0c14d88e',
+      status: 'active',
+      createdAt: '2021-02-10T20:27:33.104Z',
+    },
+  ],
+}
+
+
+export const CARD_DATA_DEMO: Array<{
+  title: string;
+  img1: string;
+  img2: string;
+  contents: Array<TCardItem>;
+}> = [
+  {
+    title: 'Behaviors',
+    img1: '/images/behavior-1.png',
+    img2: '/images/behavior-2.png',
+    contents: [
+      {
+        streak: '4',
+        label: "Create Dailyplan",
+        status: "+1 Today",
+      },
+      {
+        streak: '3',
+        label: "Cold Calls",
+        status: "+3 Today",
+      },
+      {
+        streak: '1',
+        label: "Mindset Journal",
+      },
+    ]
+  }, {
+    title: 'Metrics',
+    img1: "/images/metric-1.png",
+    img2: "/images/metric-2.png",
+    contents: [
+      {
+        streak: '14',
+        label: "Leads Generated",
+        status: "+2 This week",
+      },
+      {
+        streak: '5',
+        label: "Sales Made",
+        status: "+3 This week",
+      },
+      {
+        streak: '$2000',
+        label: "Revenue",
+        status: "+$500 This week"
+      },
+    ]
+  }
+]

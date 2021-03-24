@@ -1,10 +1,10 @@
 <script>
-  import UserProfile from '../components/UserProfile.svelte'
-  import Sheet from '../components/Sheet.svelte'
-  import Avatar from '../components/Avatar.svelte'
-  import {board} from '../lib/board'
+  import UserProfile from "../components/UserProfile.svelte";
+  import Sheet from "../components/Sheet.svelte";
+  import Avatar from "../components/Avatar.svelte";
+  import { board } from "../lib/board";
 
-  let user = false
+  let user = false;
 </script>
 
 <div class="flex flex-col mx-auto w-136 mt-24 space-y-4">
@@ -17,8 +17,8 @@
       <div class="flex space-x-3">
         <button
           class="p-2 border-0 bg-green text-white"
-          on:click={() => (user = u)}>Slide Up</button
-        >
+          on:click={() => (user = u)}>Slide Up</button>
+
         <a href={`/user/${i}`} class="p-2 border-0 bg-green text-white">Go</a>
       </div>
     </div>

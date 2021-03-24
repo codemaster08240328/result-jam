@@ -28,6 +28,7 @@ module.exports = {
       ],
     },
   },
+  important: true,
   theme: {
     fontFamily: {
       display: ['Poppins', 'sans-serif'],
@@ -45,11 +46,13 @@ module.exports = {
       },
       fontSize: {
         xxs: '0.625rem',
+        '3xxl': '2.0rem',
       },
       height: {
         'screen-75': '75vh',
       },
       width: {
+        0.25: '1px',
         36: '9rem',
         102: '25.5rem',
         120: '30rem',
@@ -68,6 +71,9 @@ module.exports = {
         120: '30rem',
         230: '57.5rem',
         'screen-75': '75vh',
+      },
+      minHeight: {
+        132: "8rem",
       },
       boxShadow: {
         line: '0 2px 0px 0 rgba(0, 0, 0, 0.06)',
@@ -90,9 +96,12 @@ module.exports = {
           200: '#bfe7d9',
           300: '#9edbc5',
           400: '#7ecfb2',
+          450: '#66EF84',
           500: '#5ec39f',
           DEFAULT: '#5ec39f',
+          550: '#4BE9B0',
           600: '#4b9c7f',
+          650: '#45a180',
           700: '#38755f',
           800: '#264e40',
           900: '#132720',
@@ -105,6 +114,7 @@ module.exports = {
           500: '#f5f7fa',
           DEFAULT: '#f5f7fa',
           600: '#E9EBF0',
+          650: '#e5e5e5',
           700: '#DDE2EC',
           800: '#8D97A6',
           900: '#939496',
@@ -116,6 +126,7 @@ module.exports = {
           100: '#ebecec',
           200: '#d6d9d9',
           300: '#c2c6c6',
+          350: '#bbbec9',
           400: '#adb3b3',
           500: '#99a0a0',
           DEFAULT: '#99a0a0',
@@ -204,6 +215,12 @@ module.exports = {
           900: '#090909',
         },
       },
+      backgroundImage: theme => ({
+        'profile-banner': "url('/images/profile-banner.png')",
+        'profile-banner-mob': "url('/images/profile-banner-mobile.png')",
+        'stripe-piece': "url('/images/stripes.png')",
+        'bluegray-gradient': "linear-gradient(0deg, rgba(245,247,250,0) 0%, rgba(245,247,250,1) 42%, rgba(245,247,250,1) 100%);"
+      }),
     },
   },
   // ...

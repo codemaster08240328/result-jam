@@ -4,3 +4,4 @@ node_modules
 /.svelte
 /build
 /functions
+yarn-error.log
